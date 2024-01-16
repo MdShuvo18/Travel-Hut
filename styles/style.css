@@ -70,7 +70,7 @@
     margin-right: 127px;
 }
 
-nav {
+.nav-class {
     display: flex;
     justify-content: space-between;
 }
@@ -83,60 +83,60 @@ nav {
     font-size: 4rem;
     font-weight: 800;
     text-align: center;
-    width: 590px;
-    height: 80px;
-    padding-left: 300px;
+    margin-top: 106px;
 }
 
 .top-paragraph p {
-    width: 676px;
     color: #FFF;
-    font-size: 1rem;
     font-weight: 400;
     text-align: center;
-    margin-left: 255px;
+    width: 60%;
+    margin: 25px auto 0 auto;
+    /* margin-left: 255px;
     margin-top: 20px;
-    margin-bottom: 48px;
+    margin-bottom: 48px; */
 }
 
-.input-items {
+/* .input-items {
     text-align: center;
+    margin: 0 auto;
+} */
+
+.container {
+    width: 80%;
     margin: 0 auto;
 }
 
-.container {
-    width: 1170px;
-    height: 400px;
-    margin-top: 50px;
-    margin-left: 190px;
-    align-items: center;
-    justify-content: center;
-    padding-top: 100px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group13.png);
-    background-repeat: no-repeat;
+.banner {
+    width: 100%;
+    height: 500px;
     border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group13.png);
+    background-repeat: round;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .input-items {
-    display: inline-flex;
-    padding: 16px;
-    align-items: flex-start;
-    gap: 24px;
+    width: 80%;
+    height: 85px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto;
 }
 
 .input-items input,
 select {
-    width: 174px;
+    width: 20%;
     height: 52px;
     border-radius: 8px;
     background: #FFF;
     color: rgba(19, 19, 24, 0.50);
     font-weight: 400;
-    padding-left: 16px;
-    padding-right: 16px;
     border: none;
 }
 
@@ -159,21 +159,29 @@ select {
 }
 
 /* main section---popular-tour-section start*/
-.popular-tours-left {
+
+.popular-tours {
     margin-top: 100px;
-    margin-left: 190px;
-    width: 500px;
-    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    /* justify-content: space-between; */
+}
+
+.popular-tours-left {
+    width: 90%;
+    margin-top: 24px;
 }
 
 .popular-tours-left h2 {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
-    padding-bottom: 24px;
+    /* padding-bottom: 24px; */
 }
 
 .popular-tours-left p {
+    margin-top: 1rem;
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -200,167 +208,46 @@ select {
 
 }
 
-.popular-tours-right img {
-    width: 440px;
-    height: 480px;
-    margin-top: 100px;
-    margin-right: 155px;
-}
-
-.popular-tours {
-    display: flex;
-    justify-content: space-between;
-}
-
 /* popular-tour-section end */
 
 /* choose-destination start */
-
-.choose-destination-heading {
+.cyd-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin-top: 100px;
-    margin-left: 398px;
 }
 
-.choose-destination-heading h2 {
-    padding-left: 200px;
-    padding-bottom: 24px;
+.cyd-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cyd-heading h2 {
+    font-size: 2.5rem;
     color: #131318;
-    font-size: 2.25rem;
     font-weight: 800;
+    margin-bottom: 24px;
 }
 
-.choose-destination-heading p {
-    padding-left: 80px;
-    padding-bottom: 48px;
+.cyd-heading p {
     color: rgba(19, 19, 24, 0.70);
     font-weight: 400;
+    width: 85%;
+    text-align: center;
+    margin-bottom: 48px;
 }
 
-.first-left-image {
-    width: 573px;
-    height: 300px;
-    border-radius: 16px;
-    background: url(../Images/Rectangle5.png);
-
-}
-
-.first-left-image h2 {
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
-    padding-top: 132px;
-    padding-left: 220px;
-    width: 120px;
-    height: 35px;
-}
-
-.first-right-image {
-    width: 573px;
-    height: 300px;
-    border-radius: 16px;
-    background: url(../Images/Rectangle8.png);
-}
-
-.first-right-image h2 {
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
-    padding-top: 132px;
-    padding-left: 226px;
-    width: 120px;
-    height: 35px;
-}
-
-.first-image {
+.cyd-images {
     display: flex;
     gap: 24px;
-    align-items: center;
-    justify-content: center;
 }
 
-.second-image-first {
-    width: 374px;
-    height: 286px;
-    background: url(../Images/Rectangle6.png);
-}
-
-.second-image-first h2 {
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
-    padding-top: 125px;
-    padding-left: 130px;
-}
-
-.second-image-second {
-    width: 474px;
-    height: 286px;
-    background: url(../Images/Rectangle7.png);
-}
-
-.second-image-second h2 {
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
-    padding-top: 125px;
-    padding-left: 190px;
-}
-
-.second-image-third {
-    width: 274px;
-    height: 286px;
-    background: url(../Images/Rectangle9.png);
-}
-
-.second-image-third h2 {
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
-    padding-top: 125px;
-    padding-left: 80px;
-}
-
-.second-image {
+.cyd-image-box {
     display: flex;
+    flex-direction: column;
     gap: 24px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 24px;
-}
-
-.third-image-first {
-    width: 473px;
-    height: 300px;
-    background: url(../Images/Rectangle11.png);
-}
-
-.third-image-first h2 {
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
-    padding-top: 132px;
-    padding-left: 155px;
-}
-
-.third-image-second {
-    width: 673px;
-    height: 300px;
-    background: url(../Images/Rectangle10.png);
-}
-
-.third-image-second h2 {
-    color: #FFF;
-    font-size: 1.75rem;
-    font-weight: 800;
-    padding-top: 132px;
-    padding-left: 260px;
-}
-.third-image {
-    display: flex;
-    gap: 24px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 24px;
 }
 
 /* choose-destination end */
@@ -462,6 +349,7 @@ select {
 .inside-two-div {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 
 }
 
