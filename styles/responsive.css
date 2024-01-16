@@ -156,6 +156,20 @@
     }
 
     /* newsletter-part ended */
+    /* footer part start */
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-image{
+        margin-top: 16px;
+    }
+    .footer-p{
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    /* footer part ended */
 
 
 }
