@@ -1,7 +1,7 @@
 /* responsive-for-mobile */
 @media screen and (max-width:600px) {
 
-    
+
     .container,
     .input-items {
         display: flex;
@@ -32,19 +32,23 @@
         margin-left: 34px;
     }
 
-    .nav-class{
+    .nav-class {
         flex-direction: row;
         justify-content: space-between;
     }
-    .three-bar{
+
+    .three-bar {
         display: inline;
     }
+
     .title-name h3 {
         font-size: 1.23rem;
     }
+
     .title-name span {
         font-size: 1.23rem;
     }
+
     .top-headline h2 {
         font-size: 1.25rem;
         margin: 32px auto 0 auto;
@@ -71,44 +75,87 @@
         width: 80%;
     }
 
-    .input-items input::placeholder{
+    .input-items input::placeholder {
         text-indent: 15px;
     }
-    .input-items select{
+
+    .input-items select {
         text-indent: 15px;
     }
 
     /* popular-tour-section-start */
-    .popular-tours{
+    .popular-tours {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .popular-tours-left{
+    .popular-tours-left {
         width: auto;
     }
-    .popular-tours-right img{
+
+    .popular-tours-right img {
         width: 100%;
     }
-    
+
 
     /* choose-destination start */
-    .cyd-image-box, .cyd-images{
+    .cyd-image-box,
+    .cyd-images {
         display: flex;
         flex-direction: column;
     }
+
     .cyd-images img {
         width: 335px;
         height: 176px;
     }
-    .cyd-heading{
+
+    .cyd-heading {
         align-items: center;
         justify-content: center;
     }
-    .cyd-heading h2{
+
+    .cyd-heading h2 {
         font-size: 1.25rem;
     }
+
     /* choose-destination end */
 
+    /* why-choose-us part start */
+    .why-choose-us,
+    .inside-two-div,
+    .last-div {
+        display: flex;
+        flex-direction: column;
+        /* width: 335px;
+        height: 289px; */
+
+    }
+
+    /* why-choose-us part ended */
+    /* newsletter-part start */
+    .news-letter-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .news-letter-right img{
+        width: 100%;
+    }
+
+    .newsletter-offer{
+        width: 45%;
+        height: 80px;
+        top: 100px;
+        left: 170px;
+    }
+    .newsletter-offer p {  
+        font-size: 1rem;   
+    }
     
- 
+    .newsletter-offer h3 {
+        font-size: 1rem;    
+    }
+
+    /* newsletter-part ended */
+
+
 }
