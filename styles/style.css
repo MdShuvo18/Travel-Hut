@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
-    /* background: #FFF; */
+    
 }
 
 .hide {
@@ -92,15 +92,8 @@
     text-align: center;
     width: 60%;
     margin: 25px auto 0 auto;
-    /* margin-left: 255px;
-    margin-top: 20px;
-    margin-bottom: 48px; */
+    
 }
-
-/* .input-items {
-    text-align: center;
-    margin: 0 auto;
-} */
 
 .container {
     width: 80%;
@@ -165,7 +158,7 @@ select {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
-    /* justify-content: space-between; */
+    
 }
 
 .popular-tours-left {
@@ -177,7 +170,7 @@ select {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
-    /* padding-bottom: 24px; */
+    
 }
 
 .popular-tours-left p {
@@ -205,7 +198,6 @@ select {
     font-weight: 800;
     width: 174px;
     height: 52px;
-    border: none;
 
 }
 
@@ -240,6 +232,97 @@ select {
     margin-bottom: 48px;
 }
 
+.maldives {
+    position: relative;
+}
+
+.maldives h2 {
+    color: #FFF;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 130px;
+    left: 230px;
+}
+
+.nepal {
+    position: relative;
+}
+
+.nepal h2 {
+    color: #FFF;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 135px;
+    left: 250px;
+}
+
+.srilanka {
+    position: relative;
+}
+
+.srilanka h2 {
+    color: #FFF;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 135px;
+    left: 130px;
+}
+
+.bhutan {
+    position: relative;
+}
+
+.bhutan h2 {
+    color: #FFF;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 135px;
+    left: 200px;
+}
+
+.kashmir {
+    position: relative;
+}
+
+.kashmir h2 {
+    color: #FFF;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 135px;
+    left: 100px;
+}
+
+.bangladesh {
+    position: relative;
+}
+
+.bangladesh h2 {
+    color: #FFF;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 135px;
+    left: 150px;
+}
+
+.bandarban {
+    position: relative;
+}
+
+.bandarban h2 {
+    color: #FFF;
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: 800;
+    top: 135px;
+    left: 250px;
+}
+
 .cyd-images {
     display: flex;
     gap: 24px;
@@ -255,12 +338,9 @@ select {
 
 /* why-choose-us section start */
 
-/* .why-choose-us {} */
-
 .why-choose-us-heading {
     width: 100%;
     height: auto;
-
 }
 
 .why-choose-us-heading h2 {
@@ -280,110 +360,69 @@ select {
 }
 
 .hotels {
+    width: 50%;
+    height: 284px;
     border-radius: 16px;
+}
+
+#hotels1 {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-
 }
 
-.hotels img {
-    width: 64px;
-    height: 64px;
-    margin-top: 32px;
-    margin-left: 32px;
-}
-
-.hotels h4 {
-    color: #131318;
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-left: 32px;
-    margin-bottom: 16px;
-    margin-top: 32px;
-}
-
-.hotels p {
-    color: #5A5A5D;
-    width: 486px;
-    font-weight: 400;
-    margin-left: 32px;
-    line-height: 26px;
-}
-
-.service {
-    border-radius: 16px;
+#hotels2 {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-
 }
 
-.service img {
-    width: 64px;
-    height: 64px;
+#hotels3 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.inside-two-div img { 
     margin-top: 32px;
     margin-left: 32px;
 }
 
-.service h4 {
-    color: #131318;
-    font-size: 1.5rem;
-    font-weight: 800;
+.inside-two-div h4 {
     margin-left: 32px;
-    margin-bottom: 16px;
     margin-top: 32px;
 }
 
-.service p {
-    color: #5A5A5D;
-    width: 486px;
-    font-weight: 400;
+.inside-two-div p {
     margin-left: 32px;
-    line-height: 26px;
+    margin-top: 16px;
+    width: 85%;
 }
 
 .inside-two-div {
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 24px;
-    margin: 48px auto 0 auto;
+    margin-top: 48px;
 
 }
 
-.last-div {
-    width: 573px;
-    height: 284px;
-    border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
-    /* margin-top: 24px;
-    margin-left: 400px; */
-    margin: 24px auto 0 auto;
-
+.new-last-div {
+    display: flex;
+    margin-top: 48px;
+    justify-content: center;
 }
 
-.last-div img {
-    width: 64px;
-    height: 64px;
+.new-last-div img {
     margin-top: 32px;
     margin-left: 32px;
 }
 
-.last-div h4 {
-    color: #131318;
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-left: 32px;
-    margin-bottom: 16px;
+.new-last-div h4 {
     margin-top: 32px;
+    margin-left: 32px;
 }
 
-.last-div p {
-    color: #5A5A5D;
-    width: 486px;
-    font-weight: 400;
+.new-last-div p {
+    width: 85%;
+    margin-top: 16px;
     margin-left: 32px;
-    line-height: 26px;
 }
 
 /* why-choose-us section end */
@@ -419,7 +458,7 @@ select {
 }
 
 .news-letter-left input {
-    width: 60%;
+    /* width: 60%; */
     height: 52px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
@@ -427,7 +466,7 @@ select {
 }
 
 .news-letter-left button {
-    width: 60%;
+    /* width: 60%; */
     height: 52px;
     border-radius: 8px;
     background: #FF5400;
@@ -511,13 +550,15 @@ select {
     font-weight: 400;
     justify-content: center;
     align-items: center;
-    margin: ;
+
     /* margin-left: 380px;
     padding-top: 15px; */
 }
 
 .footer-image {
     display: flex;
+    width: 175px;
+    height: 24px;
     gap: 30px;
     margin-top: 16px;
     /* margin-left: 700px;

@@ -85,6 +85,7 @@
 
     /* popular-tour-section-start */
     .popular-tours {
+        margin-top: 24px;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -118,17 +119,59 @@
         font-size: 1.25rem;
     }
 
+    .maldives h2 {
+        top: 80px;
+        left: 115px;
+    }
+    .nepal h2 {
+        top: 80px;
+        left: 125px;
+    }
+    .srilanka h2 {
+        top: 80px;
+        left: 110px;
+    }
+    .bhutan h2 {
+        top: 80px;
+        left: 110px;
+    }
+    .kashmir h2 {
+        top: 80px;
+        left: 110px;
+    }
+    .bangladesh h2 {
+        top: 80px;
+        left: 95px;
+    }
+    .bandarban h2 {
+        top: 80px;
+        left: 95px;
+    }
+
     /* choose-destination end */
 
     /* why-choose-us part start */
     .why-choose-us,
     .inside-two-div,
-    .last-div {
+    .new-last-div {
         display: flex;
         flex-direction: column;
-        /* width: 335px;
-        height: 289px; */
-
+    }
+    .inside-two-div p,
+    .new-last-div p{
+        width: 85%;   
+    }
+    .inside-two-div h4,
+    .new-last-div h4{
+        margin-top: 16px;     
+    }
+    .inside-two-div,
+    .new-last-div {
+        margin-top: 16px;
+    }
+    .hotels{
+        width: 335px;
+        height: 289px;
     }
 
     /* why-choose-us part ended */
@@ -137,38 +180,42 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .news-letter-right img{
+    .news-letter-right img {
         width: 100%;
     }
 
-    .newsletter-offer{
+    .newsletter-offer {
         width: 45%;
         height: 80px;
         top: 100px;
         left: 170px;
     }
-    .newsletter-offer p {  
-        font-size: 1rem;   
+
+    .newsletter-offer p {
+        font-size: 1rem;
     }
-    
+
     .newsletter-offer h3 {
-        font-size: 1rem;    
+        font-size: 1rem;
     }
 
     /* newsletter-part ended */
     /* footer part start */
-    .footer{
+    .footer {
         display: flex;
         flex-direction: column;
     }
-    .footer-image{
+
+    .footer-image {
         margin-top: 16px;
     }
-    .footer-p{
+
+    .footer-p {
         width: 75%;
         margin: 0 auto;
         text-align: center;
     }
+
     /* footer part ended */
 
 
