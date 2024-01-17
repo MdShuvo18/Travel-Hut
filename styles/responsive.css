@@ -21,7 +21,6 @@
     .container {
         width: 80%;
         margin: 0 auto;
-
     }
 
     .title {
@@ -123,26 +122,32 @@
         top: 80px;
         left: 115px;
     }
+
     .nepal h2 {
         top: 80px;
         left: 125px;
     }
+
     .srilanka h2 {
         top: 80px;
         left: 110px;
     }
+
     .bhutan h2 {
         top: 80px;
         left: 110px;
     }
+
     .kashmir h2 {
         top: 80px;
         left: 110px;
     }
+
     .bangladesh h2 {
         top: 80px;
         left: 95px;
     }
+
     .bandarban h2 {
         top: 80px;
         left: 95px;
@@ -157,24 +162,40 @@
         display: flex;
         flex-direction: column;
     }
+
     .inside-two-div p,
-    .new-last-div p{
-        width: 85%;   
+    .new-last-div p {
+        width: 85%;
     }
+
     .inside-two-div h4,
-    .new-last-div h4{
-        margin-top: 16px;     
+    .new-last-div h4 {
+        margin-top: 16px;
     }
+
     .inside-two-div,
     .new-last-div {
         margin-top: 16px;
     }
-    .hotels{
+
+    .hotels {
         width: 335px;
         height: 289px;
     }
 
     /* why-choose-us part ended */
+
+    /* bonus part start */
+    .bonus-part{
+        flex-direction: column;
+        align-items: center;
+    }
+    .bonus-section p{
+        width: auto;
+       
+    }
+    /* bonus part end */
+
     /* newsletter-part start */
     .news-letter-section {
         grid-template-columns: repeat(1, 1fr);
@@ -200,6 +221,7 @@
     }
 
     /* newsletter-part ended */
+
     /* footer part start */
     .footer {
         display: flex;

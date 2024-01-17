@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
-    
+
 }
 
 .hide {
@@ -92,7 +92,7 @@
     text-align: center;
     width: 60%;
     margin: 25px auto 0 auto;
-    
+
 }
 
 .container {
@@ -158,7 +158,7 @@ select {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
-    
+
 }
 
 .popular-tours-left {
@@ -170,7 +170,7 @@ select {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
-    
+
 }
 
 .popular-tours-left p {
@@ -380,7 +380,7 @@ select {
     background: rgba(233, 68, 68, 0.05);
 }
 
-.inside-two-div img { 
+.inside-two-div img {
     margin-top: 32px;
     margin-left: 32px;
 }
@@ -426,6 +426,102 @@ select {
 }
 
 /* why-choose-us section end */
+
+/* bonus part start */
+.first-img {
+    position: relative;
+}
+
+.first-img img {
+    width: 265px;
+    height: 472px;
+}
+
+.first-img h2 {
+    color: #FF5400;
+    font-size: 4rem;
+    font-weight: 400;
+    position: absolute;
+    top: 428px;
+    left: 120px;
+}
+
+.second-img {
+    position: relative;
+}
+
+.second-img img {
+    width: 265px;
+    height: 472px;
+}
+
+.second-img h2 {
+    color: #FF5400;
+    font-size: 4rem;
+    font-weight: 400;
+    position: absolute;
+    top: 475px;
+    left: 120px;
+}
+
+.third-img {
+    position: relative;
+}
+
+.third-img img {
+    width: 265px;
+    height: 472px;
+}
+
+.third-img h2 {
+    color: #FF5400;
+    font-size: 4rem;
+    font-weight: 400;
+    position: absolute;
+    top: 425px;
+    left: 120px;
+}
+
+.fourth-img {
+    position: relative;
+}
+
+.fourth-img img {
+    width: 265px;
+    height: 472px;
+}
+
+.fourth-img h2 {
+    color: #FF5400;
+    font-size: 4rem;
+    font-weight: 400;
+    position: absolute;
+    top: 480px;
+    left: 120px;
+}
+
+.bonus-part {
+    display: flex;
+    gap: 21px;
+    margin-top: 100px;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.bonus-section p { 
+   
+    margin: 35px auto 0 auto;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+    font-weight: 600;   
+}
+
+
+/* bonus part end */
+
 
 /* newsletter part start */
 
